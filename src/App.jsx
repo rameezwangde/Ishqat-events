@@ -104,19 +104,13 @@ export default function App() {
         <header className="relative z-30 w-full px-4 sm:px-6 md:px-10 lg:px-12 pt-4 sm:pt-6 pb-2">
           <nav className="mx-auto flex items-center justify-between backdrop-blur-md bg-black/30 border border-white/10 rounded-full py-2 px-4 sm:px-6 shadow-[0_4px_30px_rgba(0,0,0,0.4)]">
             
-            {/* Left: Ishqat Events Gold Logo */}
-            <a href="#" className="flex items-center gap-2.5 sm:gap-3 group">
-              <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border border-[#d4af37]/70 flex items-center justify-center bg-gradient-to-br from-[#2a1147]/80 to-[#120524]/80 shadow-[0_0_15px_rgba(212,175,55,0.3)] group-hover:border-[#e9cf76] transition-all duration-300">
-                <span className="font-serif-luxury text-sm sm:text-lg font-bold text-gold-gradient tracking-wider">IE</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="font-serif-luxury text-base sm:text-xl font-bold tracking-[0.2em] text-gold-gradient drop-shadow-sm leading-tight">
-                  ISHQAT
-                </span>
-                <span className="text-[8px] sm:text-[9px] tracking-[0.35em] text-white/70 uppercase -mt-0.5 font-light">
-                  EVENTS • DUBAI
-                </span>
-              </div>
+            {/* Left: Ishqat Events Official Brand Logo */}
+            <a href="#" className="flex items-center group py-0.5">
+              <img 
+                src="/ishqat-logo.png" 
+                alt="Ishqat Events Logo" 
+                className="h-10 sm:h-12 md:h-14 w-auto object-contain transition-all duration-300 group-hover:scale-105 drop-shadow-[0_0_12px_rgba(212,175,55,0.4)]"
+              />
             </a>
 
             {/* Center: Desktop Navigation Links */}

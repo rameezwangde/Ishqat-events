@@ -100,19 +100,13 @@ export default function LuxuryFooter() {
           {/* Column 1: Brand & Identity (5 cols on lg) */}
           <div className="lg:col-span-5 flex flex-col justify-between">
             <div>
-              {/* Logo */}
-              <a href="#" className="inline-flex items-center gap-3 group mb-5">
-                <div className="w-12 h-12 rounded-full border border-[#d4af37]/80 flex items-center justify-center bg-gradient-to-br from-[#2a1147] to-[#120524] shadow-[0_0_20px_rgba(212,175,55,0.4)] group-hover:border-[#FFE09A] transition-all duration-300">
-                  <span className="font-serif-luxury text-xl font-bold text-gold-gradient tracking-wider">IE</span>
-                </div>
-                <div className="flex flex-col">
-                  <span className="font-serif-luxury text-2xl font-bold tracking-[0.22em] text-gold-gradient drop-shadow-sm leading-tight">
-                    ISHQAT
-                  </span>
-                  <span className="text-[10px] tracking-[0.38em] text-white/70 uppercase font-light">
-                    EVENTS • DUBAI
-                  </span>
-                </div>
+              {/* Official Brand Logo */}
+              <a href="#" className="inline-flex items-center group mb-6">
+                <img 
+                  src="/ishqat-logo.png" 
+                  alt="Ishqat Events Logo" 
+                  className="h-14 sm:h-16 md:h-20 w-auto object-contain transition-all duration-300 group-hover:scale-105 drop-shadow-[0_0_15px_rgba(212,175,55,0.4)]"
+                />
               </a>
 
               <p className="text-white/75 text-xs sm:text-[13.5px] leading-relaxed font-light max-w-sm mb-6">
